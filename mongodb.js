@@ -11,25 +11,16 @@ MongoClient.connect(url, function(err, db) {
 	collection.insertMany(user);
     collection.find({}).toArray(function(err, items) {
 		assert.equal(null, err);
-		try {
-			assert.equal(3, items.length);
-		}
-		catch(err) {
-			console.log("err!!!!!");
-		}
+		assert.equal(3, items.length);
+
 		for (var i = 0; i < items.length; i++) {
 			console.log(items[i]);
 		}
     });
 	collection.remove({orderID: 1});
-	collection.find({}).toArray(function(err, item) {
+	collection.find({}).sort( { "orderID": -1} ).toArray(function(err, item) {
 		assert.equal(null, err);
-		try {
-			assert.equal(2, item.length);
-		}
-		catch(err) {
-			console.log("err!!!!!");
-		}
+		assert.equal(2, item.length);
 		var jsonfile = require('jsonfile');
 		var file = './output.json'
 		jsonfile.writeFileSync(file, item, {spaces: 2});	
@@ -37,3 +28,18 @@ MongoClient.connect(url, function(err, db) {
 	db.close();
   
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

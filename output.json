@@ -1,6 +1,29 @@
 [
   {
-    "_id": "57e4e367443c7c1d18264ba5",
+    "_id": "57e4f4f466e2a307e483f3ae",
+    "orderID": 6,
+    "surname": "Петров",
+    "name": "Петр",
+    "middle name": "Петрович",
+    "age": 26,
+    "gender": "male",
+    "telephine_numbers": [
+      56434578,
+      5555555,
+      976756577
+    ],
+    "email": "petrov@example.com",
+    "contents": [
+      {
+        "productID": 6,
+        "productName": "Ручка",
+        "quantity": 1
+      }
+    ],
+    "orderCompleted": true
+  },
+  {
+    "_id": "57e4f4f466e2a307e483f3ac",
     "orderID": 4,
     "surname": "Smith",
     "name": "Jonh",
@@ -23,29 +46,6 @@
         "productID": 56,
         "productName": "Чудо товар",
         "quantity": 3
-      }
-    ],
-    "orderCompleted": true
-  },
-  {
-    "_id": "57e4e367443c7c1d18264ba7",
-    "orderID": 6,
-    "surname": "Петров",
-    "name": "Петр",
-    "middle name": "Петрович",
-    "age": 26,
-    "gender": "male",
-    "telephine_numbers": [
-      56434578,
-      5555555,
-      976756577
-    ],
-    "email": "petrov@example.com",
-    "contents": [
-      {
-        "productID": 6,
-        "productName": "Ручка",
-        "quantity": 1
       }
     ],
     "orderCompleted": true
