@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "57e4e367443c7c1d18264ba5",
+    "orderID": 4,
+    "surname": "Smith",
+    "name": "Jonh",
+    "middle name": "Jeck",
+    "age": 43,
+    "gender": "male",
+    "telephine_numbers": [
+      334434325,
+      545452354,
+      4545454664
+    ],
+    "email": "fhfhsg@example.com",
+    "contents": [
+      {
+        "productID": 34,
+        "productName": "Супер товар",
+        "quantity": 1
+      },
+      {
+        "productID": 56,
+        "productName": "Чудо товар",
+        "quantity": 3
+      }
+    ],
+    "orderCompleted": true
+  },
+  {
+    "_id": "57e4e367443c7c1d18264ba7",
+    "orderID": 6,
+    "surname": "Петров",
+    "name": "Петр",
+    "middle name": "Петрович",
+    "age": 26,
+    "gender": "male",
+    "telephine_numbers": [
+      56434578,
+      5555555,
+      976756577
+    ],
+    "email": "petrov@example.com",
+    "contents": [
+      {
+        "productID": 6,
+        "productName": "Ручка",
+        "quantity": 1
+      }
+    ],
+    "orderCompleted": true
+  }
+]
